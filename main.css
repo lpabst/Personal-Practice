@@ -1,0 +1,63 @@
+/*I have everything for the header up here*/
+.main_header{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(gray, black);
+    position: relative
+}
+
+.main_header ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding-top: 10px;
+    position: absolute;
+    left: 35%;
+}
+
+.main_header li{
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+/*Everything for the footer next*/
+.main_footer{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(black, gray);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer_text{
+    font-weight: bold;
+}
+
+/*Everything for the main section and game box next*/
+.main_section{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background: #aaa;
+    position: relative;
+}
+
+.game_box{
+    width: 420px;
+    height: 420px;
+    background: #111;
+    position: absolute;
+    top: 10%;
+    left: 32.5vw;
+}
+
+#player{
+    width: 40px;
+    height: 40px;
+    background: #ccc;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    top: 5px;
+    left: 200px;
+}
