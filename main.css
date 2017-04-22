@@ -42,6 +42,22 @@
     position: relative;
 }
 
+.health_container{
+    width: 204px;
+    height: 54px;
+    background: red;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    border: 2px solid black;
+}
+
+.health{
+    width: 200px;
+    height: 50px;
+    background: green;
+}
+
 .game_box{
     width: 420px;
     height: 420px;
@@ -60,4 +76,15 @@
     position: absolute;
     top: 5px;
     left: 200px;
+}
+
+/*Jquery created items here*/
+.rain{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: blue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }
